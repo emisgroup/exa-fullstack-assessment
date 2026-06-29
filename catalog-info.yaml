@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: exa-fullstack-assessment
+  annotations:
+    github.com/project-slug: emisgroup/exa-fullstack-assessment
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/nightingale-admin
